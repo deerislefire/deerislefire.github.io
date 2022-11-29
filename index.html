@@ -1,11 +1,171 @@
 <!DOCTYPE html>
-<html lang="en">
-  <head>
-    <meta charset="utf-8">
-    <title>Deer Isle Fire Department</title>
-    <link rel="stylesheet" href="css/style.css">
-  </head>
-  <body>
-    Hello, World!
-  </body>
+<!--[if lt IE 7 ]><html class="ie ie6" lang="en"> <![endif]-->
+<!--[if IE 7 ]><html class="ie ie7" lang="en"> <![endif]-->
+<!--[if IE 8 ]><html class="ie ie8" lang="en"> <![endif]-->
+<!--[if (gte IE 9)|!(IE)]><!--><html lang="en"> <!--<![endif]-->
+<head>
+
+	<!-- Basic Page Needs
+  ================================================== -->
+	<meta charset="utf-8">
+	<title>Deer Isle Fire Department</title>
+	<meta name="description" content="">
+	<meta name="author" content="">
+
+	<!-- Mobile Specific Metas
+  ================================================== -->
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+
+	<!-- CSS
+  ================================================== -->
+	<link rel="stylesheet" href="stylesheets/base.css">
+	<link rel="stylesheet" href="stylesheets/skeleton.css">
+	<link rel="stylesheet" href="stylesheets/layout.css">
+
+	<!--[if lt IE 9]>
+		<script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+	<![endif]-->
+
+	<!-- Favicons
+	================================================== -->
+	<link rel="shortcut icon" href="images/favicon.ico">
+	<link rel="apple-touch-icon" href="images/apple-touch-icon.png">
+	<link rel="apple-touch-icon" sizes="72x72" href="images/apple-touch-icon-72x72.png">
+	<link rel="apple-touch-icon" sizes="114x114" href="images/apple-touch-icon-114x114.png">
+
+	<!-- Slider Images Pre-Load
+	================================================== -->
+	<script type="text/javascript">
+	<!--
+	var image1=new Image()
+	image1.src="images/album/index1.jpg"
+	var image2=new Image()
+	image2.src="images/album/index2.jpg"
+	var image3=new Image()
+	image3.src="images/album/index3.jpg"
+	var image4=new Image()
+	image4.src="images/album/index4.jpg"
+	//-->
+	</script>
+
+</head>
+<body>
+
+
+
+	<!-- Primary Page Layout
+	================================================== -->
+
+	<br />
+	<div class="container">
+	
+		<!-- Top Section -->
+		<div class="container" width="100%">
+			<img src="images/headimg.png" width="100%" height="100%" alt="" title="" border="0" />
+			<h2 class="remove-bottom">Deer Isle Volunteer Fire Department</h2>
+			<h6 class="italic">Serving Deer Isle and Surrounding Communities With Pride and Tradition Since 1936.</h6>
+			<hr>
+			<div class="container" width="100%">
+				<h5>
+				<a href="index.html"><div class="two columns" align="center" id="btnbg">Home</div></a>
+
+				<a href="prevention.html"><div class="two columns" align="center" id="btnbg">Prevention</div></a>
+				
+				<a href="donate.html"><div class="two columns" align="center" id="btnbg">Support DIFD</div></a>
+				
+				<a href="equipment.html"><div class="two columns" align="center" id="btnbg">Equipment</div></a>
+				
+				<a href="volunteer.html"><div class="two columns" align="center" id="btnbg">Volunteer</div></a>
+				
+				<a href="permits.html"><div class="two columns" align="center" id="btnbg">Burn Permits</div></a>
+				</h5>
+			</div>
+			<hr>
+		</div>
+		
+		<!-- Center Section -->
+		<div class="container" width="100%">
+			<div class="two columns" id="divborder">
+				 <p><h5 class="underline" align="center">Officers</h5></p>
+				 <p class="medium">Brent Morey</p>
+				 <p class="mediumi">Chief</p>
+				 <p class="medium">Don Heanssler</p>
+				 <p class="mediumi">Assistant Chief</p>
+				 <p class="medium">Jim Foley</p>
+				 <p class="mediumi">Assistant Chief</p>
+				 <p class="medium">Russell Bray</p>
+				 <p class="mediumi">Assistant Chief</p>
+				 <p class="mediumr"><a href="roster.html">View the Complete Roster</a></p>
+			</div>
+						
+			<div class="ten columns">
+				<div class="index">
+					<img class="index" src="images/album/index1.jpg" name="slide" width="90%" border="0">
+					<script type="text/javascript">
+					<!--
+					//variable that will increment through the images
+					var step=1
+					function slideit(){
+					//if browser does not support the image object, exit.
+					if (!document.images)
+					return
+					document.images.slide.src=eval("image"+step+".src")
+					if (step<4)
+					step++
+					else
+					step=1
+					//call function "slideit()" every 5 seconds
+					setTimeout("slideit()",5000)
+					}
+					slideit()
+					//-->
+					</script>
+				</div>
+				<h5>Welcome!</h5>
+				<p>We are dedicated to serving the fire and rescue needs of Deer Isle area communities.  We strive to safeguard the lives and property of the citizens of this island through proactive training, preparation, and a solid commitment to standards of excellence.</p>
+				<p>The department is built on the dedication of its members and their willingness to volunteer countless hours to fire and rescue services and training.</p>
+				<p>In the pages that follow, you will find a wealth of information about our department, equipment, mission, values, and long history.</p><br>
+				
+			</div>
+		</div>
+		
+		<!-- Bottom Section -->
+		<div class="container" width="100%">
+		<h5 class="emergency" align="center">To Report An Emergency, Dial 911.</h5><br>
+			
+			<!-- ADDITIONAL CONTENT HIDDEN FOR DEVELOPMENT
+			Un-Comment to enable when content complete.
+			
+			<div class="two columns" align="center"></div>
+        	<div class="two columns" align="center" id="btnbg">
+			    <h5><a href="aboutdifd.html">About DIFD</a></h5>
+			</div>
+			<div class="one columns" align="center"></div>
+			<div class="two columns" align="center" id="btnbg">
+				 <h5><a href="history.html">DIFD History</a></h5>
+			</div>
+			<div class="one columns" align="center"></div>
+			<div class="two columns" align="center" id="btnbg">
+				 <h5><a href="photographs.html">Photographs</a></h5>
+			</div>
+			<div class="two columns" align="center"></div>
+			
+			-->
+			
+			<!-- Footer Section -->
+			<div class="twelve columns" align="center">
+				 <hr>
+				 <p class="medium">Deer Isle Fire Department&nbsp; &nbsp;|&nbsp; &nbsp;P.O. Box 275&nbsp; &nbsp;|&nbsp; &nbsp;Deer Isle&nbsp; &nbsp;|&nbsp; &nbsp;ME&nbsp; &nbsp;|&nbsp; &nbsp;04627</p>
+		 		 <p class="medium"><a href="mailto:Info@DeerIsleFire.org"> Info@DeerIsleFire.org</a></p>
+			 	 <footer>Copyright © 2013 Deer Isle Fireman's Association, All rights reserved.</footer>
+			</div>
+		
+		</div>
+	</div><!-- container -->
+
+<br />
+	
+<!-- End Document
+================================================== -->
+</body>
 </html>
